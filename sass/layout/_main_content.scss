@@ -1,0 +1,67 @@
+.products {
+  &__primary {
+    color: var(--color-text);
+
+    display: grid;
+    grid-template-rows: repeat(3, minmax(min-content, 548px));
+    grid-template-columns: minmax((min-content, 2560px));
+    gap: 1rem;
+
+    &__item {
+      &--1 {
+        background: url(https://www.apple.com/v/home/y/images/heroes/ipad-pro/hero_ipad_pro__gl982dtu49im_small_2x.jpg);
+        background-position-y: -1.75rem;
+      }
+      &--2 {
+        background: url(https://www.apple.com/euro/home/n/screens_alt/images/heroes/iphone-12-purple/hero_iphone_12_purple__eybnx2ju5mky_small_2x.jpg);
+      }
+      &--3 {
+        background: url(https://www.apple.com/v/home/y/images/heroes/imac/hero_imac_avail__zbofyl96mzmm_small_2x.jpg);
+      }
+      &--1,
+      &--2,
+      &--3 {
+        background-size: cover;
+        background-position-x: center;
+      }
+    }
+  }
+  &__secondary {
+    display: grid;
+    grid-template-rows: repeat(6, minmax(min-content, 548px));
+    grid-template-columns: 100%;
+    gap: 1rem;
+    &__item {
+      &--1 {
+        background: url(https://www.apple.com/v/home/y/images/promos/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_small_2x.jpg);
+      }
+      &--2 {
+        background: url(https://www.apple.com/v/home/y/images/promos/watch-series-6/promo_watch_series_6_non_lte__dnht9uxjrnau_small_2x.jpg);
+      }
+      &--3 {
+        background: url(https://www.apple.com/v/home/y/images/promos/airtag/promo_airtag__e6b73a64nno2_small_2x.jpg);
+      }
+      &--4 {
+        background: url(https://www.apple.com/v/home/y/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_small_2x.jpg);
+        background-size: 230%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+      }
+      &--5 {
+        background: url(https://www.apple.com/v/home/y/images/promos/apple-tv-4k/promo_tile_tv4k__cbz6fpnn6kz6_small_2x.jpg);
+      }
+      &--6 {
+        background: url(https://www.apple.com/euro/home/n/screens_alt/images/promos/tv-plus-april-multi-show/promo_tile_tv_plus_april_multi_show__exe3n6u00l8i_small_2x.jpg);
+      }
+
+      &--1,
+      &--2,
+      &--3,
+      &--5,
+      &--6 {
+        background-size: cover;
+        background-position-x: center;
+      }
+    }
+  }
+}
