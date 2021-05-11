@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 :root {
   --color-grey-dark-1: rgba(29, 29, 31, 0.9);
 
@@ -15,4 +17,10 @@
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+body {
+  min-width: 325px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  line-height: 1.2;
 }
