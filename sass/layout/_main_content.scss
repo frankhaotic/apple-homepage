@@ -28,7 +28,7 @@
   }
   &__secondary {
     display: grid;
-    grid-template-rows: repeat(6, minmax(min-content, 548px));
+    grid-template-rows: repeat(6, 548px);
     grid-template-columns: 100%;
     gap: 1rem;
     &__item {
@@ -43,9 +43,10 @@
       }
       &--4 {
         background: url(https://www.apple.com/v/home/y/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_small_2x.jpg);
-        background-size: 230%;
-        background-position: bottom;
         background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: bottom;
+        background-size: 740px;
       }
       &--5 {
         background: url(https://www.apple.com/v/home/y/images/promos/apple-tv-4k/promo_tile_tv4k__cbz6fpnn6kz6_small_2x.jpg);
