@@ -1,5 +1,6 @@
 :root {
-  --color-grey-dark-1: rgba(29, 29, 31, 0.85);
+  --color-grey-dark-1: rgba(29, 29, 31, 0.9);
+  --color-grey-light-1: #f5f5f7;
   --color-text: #ccc; }
 
 * {
@@ -17,6 +18,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center; }
+
+footer {
+  margin-top: 1rem;
+  background-color: var(--color-grey-light-1); }
+
+.annotations {
+  padding: 1rem 2rem; }
 
 .header {
   background: var(--color-grey-dark-1);
@@ -43,7 +51,7 @@
 
 .products__secondary {
   display: grid;
-  grid-template-rows: repeat(6, minmax(min-content, 548px));
+  grid-template-rows: repeat(6, 548px);
   grid-template-columns: 100%;
   gap: 1rem; }
   .products__secondary__item--1 {
@@ -54,9 +62,10 @@
     background: url(https://www.apple.com/v/home/y/images/promos/airtag/promo_airtag__e6b73a64nno2_small_2x.jpg); }
   .products__secondary__item--4 {
     background: url(https://www.apple.com/v/home/y/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_small_2x.jpg);
-    background-size: 230%;
-    background-position: bottom;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 740px; }
   .products__secondary__item--5 {
     background: url(https://www.apple.com/v/home/y/images/promos/apple-tv-4k/promo_tile_tv4k__cbz6fpnn6kz6_small_2x.jpg); }
   .products__secondary__item--6 {
