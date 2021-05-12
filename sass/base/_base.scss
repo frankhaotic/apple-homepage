@@ -4,6 +4,7 @@
   --color-grey-dark-1: rgba(29, 29, 31, 0.9);
 
   --color-grey-light-1: #f5f5f7;
+  --color-grey-light-2: #86868b;
 
   --color-text: #ccc;
 }
@@ -65,5 +66,6 @@ Secondary grid row size: 548px (minimum)
 body {
   min-width: 325px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 300;
   line-height: 1.5;
 }

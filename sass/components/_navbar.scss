@@ -1,9 +1,10 @@
 .navbar {
-  max-width: 1025px;
+  max-width: 1100px;
   margin: 0 auto;
+  font-size: 14px;
 
   > * {
-    height: 3.25rem;
+    height: 3rem;
     margin: 0 1rem;
 
     display: flex;
@@ -31,8 +32,8 @@
         &__icon {
           margin-top: 0.5rem;
           margin-left: 2rem;
-          height: 3.5rem;
-          width: 3.5rem;
+          height: 3rem;
+          width: 3rem;
         }
       }
       &--10 {
@@ -45,8 +46,8 @@
       &--11 {
         &__icon {
           margin-top: 0.5rem;
-          height: 3.5rem;
-          width: 3.5rem;
+          height: 3rem;
+          width: 3rem;
         }
       }
     }

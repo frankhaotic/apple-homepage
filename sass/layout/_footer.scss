@@ -9,15 +9,26 @@ footer {
 
   > * {
     min-width: 320px;
-    max-width: 1020px;
+    max-width: 1035px;
   }
 }
 
 .annotations {
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem 0.5rem 1.5rem;
+  color: var(--color-grey-light-2);
+  font-size: 11px;
+  font-weight: 400;
+
+  ol {
+    li:not(last-child) {
+      margin-bottom: 0.8rem;
+    }
+  }
 }
 
 .services {
+  margin-top: 0.5rem;
+
   &__dropdown {
     width: 100%;
     display: flex;
@@ -27,6 +38,11 @@ footer {
       padding: 0.7rem 0;
     }
     li {
+      &:first-child {
+        padding-top: 2rem;
+        border-top: 1px solid #d0d0cf;
+      }
+      font-size: 12px;
       margin: 0 1rem;
       display: flex;
       border-bottom: 1px solid #d0d0cf;

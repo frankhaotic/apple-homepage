@@ -2,6 +2,7 @@
 :root {
   --color-grey-dark-1: rgba(29, 29, 31, 0.9);
   --color-grey-light-1: #f5f5f7;
+  --color-grey-light-2: #86868b;
   --color-text: #ccc; }
 
 /*
@@ -43,6 +44,7 @@ Secondary grid row size: 548px (minimum)
 body {
   min-width: 325px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 300;
   line-height: 1.5; }
 
 .hamburger {
@@ -80,10 +82,11 @@ body {
   outline: none; }
 
 .navbar {
-  max-width: 1025px;
-  margin: 0 auto; }
+  max-width: 1100px;
+  margin: 0 auto;
+  font-size: 14px; }
   .navbar > * {
-    height: 3.25rem;
+    height: 3rem;
     margin: 0 1rem;
     display: flex;
     justify-content: space-between;
@@ -98,16 +101,16 @@ body {
   .navbar__links__link--2__icon {
     margin-top: 0.5rem;
     margin-left: 2rem;
-    height: 3.5rem;
-    width: 3.5rem; }
+    height: 3rem;
+    width: 3rem; }
   .navbar__links__link--10__icon {
     margin-top: -2.4rem;
     height: 6rem;
     width: 2rem; }
   .navbar__links__link--11__icon {
     margin-top: 0.5rem;
-    height: 3.5rem;
-    width: 3.5rem; }
+    height: 3rem;
+    width: 3rem; }
 
 footer {
   margin-top: 1rem;
@@ -118,23 +121,34 @@ footer {
   align-items: center; }
   footer > * {
     min-width: 320px;
-    max-width: 1020px; }
+    max-width: 1035px; }
 
 .annotations {
-  padding: 1rem 2rem; }
+  padding: 1rem 1.5rem 0.5rem 1.5rem;
+  color: var(--color-grey-light-2);
+  font-size: 11px;
+  font-weight: 400; }
+  .annotations ol li:not(last-child) {
+    margin-bottom: 0.8rem; }
 
-.services__dropdown {
-  width: 100%;
-  display: flex;
-  flex-direction: column; }
-  .services__dropdown > * {
-    padding: 0.7rem 0; }
-  .services__dropdown li {
-    margin: 0 1rem;
+.services {
+  margin-top: 0.5rem; }
+  .services__dropdown {
+    width: 100%;
     display: flex;
-    border-bottom: 1px solid #d0d0cf; }
-  .services__dropdown__dropicon {
-    margin-left: auto; }
+    flex-direction: column; }
+    .services__dropdown > * {
+      padding: 0.7rem 0; }
+    .services__dropdown li {
+      font-size: 12px;
+      margin: 0 1rem;
+      display: flex;
+      border-bottom: 1px solid #d0d0cf; }
+      .services__dropdown li:first-child {
+        padding-top: 2rem;
+        border-top: 1px solid #d0d0cf; }
+    .services__dropdown__dropicon {
+      margin-left: auto; }
 
 .header {
   background: var(--color-grey-dark-1);
