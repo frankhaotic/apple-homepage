@@ -8,6 +8,49 @@
   --color-text: #ccc;
 }
 
+// notable page boundaries ==============================================
+
+// 2560px - container max width, image grids fixed
+$bp-largest: 160em;
+
+// 1441px - apple movies asset changes
+$bp-xlarge: 90.0625em;
+
+/*
+  1069px:
+  primary product assets change 
+  font-size change,
+  primary grid row size changes to 736px (maximum)
+  secondary grid row size changes to 624px (maximum)
+*/
+$bp-large: 66.875em;
+
+/*
+  768px:
+  navbar, footer change to desktop version,
+  primary grid row size changes to 694px
+  secondary grid row size changes to 534px
+*/
+$bp-medium: 47.94em;
+
+/* 
+  735px:
+  main grid switches to desktop,
+  primary image assets change,
+  primary grid row size changes to 698px,
+  secondary grid row size changes to 538px
+*/
+
+$bp-small: 45.875em;
+
+/*
+
+Primary grid row size: 548px (minimum)
+Secondary grid row size: 548px (minimum)
+
+========================================================================
+*/
+
 * {
   padding: 0;
   margin: 0;
