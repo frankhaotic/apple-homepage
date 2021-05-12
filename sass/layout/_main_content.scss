@@ -117,23 +117,17 @@
       }
       &--4 {
         background: url(https://www.apple.com/v/home/y/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_small_2x.jpg);
-        background-repeat: no-repeat;
-        background-position-x: center;
-        background-position-y: bottom;
+        @include fitness-images;
         background-size: 740px;
 
         @media only screen and (min-width: $bp-small) {
           background: url(https://www.apple.com/v/home/y/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_medium_2x.jpg);
-          background-repeat: no-repeat;
-          background-position-x: center;
-          background-position-y: bottom;
+          @include fitness-images;
           background-size: 500px;
         }
         @media only screen and (min-width: $bp-large) {
           background: url(https://www.apple.com/v/home/y/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_large_2x.jpg);
-          background-repeat: no-repeat;
-          background-position-x: center;
-          background-position-y: bottom;
+          @include fitness-images;
           background-size: 1100px;
         }
       }
