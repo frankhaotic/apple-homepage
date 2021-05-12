@@ -1,10 +1,65 @@
 .navbar {
+  max-width: 1025px;
+  margin: 0 auto;
+
   > * {
-    height: 3rem;
+    height: 3.25rem;
     margin: 0 1rem;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
+  .hidden {
+    display: none;
+  }
+
+  &__links {
+    &__link {
+      > * {
+        flex: 1;
+      }
+    }
+  }
+
+  @media only screen and (min-width: $bp-medium) {
+    .hidden {
+      display: inline-block;
+    }
+
+    .hide {
+      display: none;
+    }
+  }
+
+  &__links {
+    &__link {
+      &--2 {
+        &__icon {
+          margin-top: 0.5rem;
+          height: 3.5rem;
+          width: 3.5rem;
+        }
+      }
+      &--10 {
+        &__icon {
+          margin-top: -2.4rem;
+          height: 6rem;
+          width: 2rem;
+        }
+      }
+      &--11 {
+        &__icon {
+          margin-top: 0.5rem;
+          height: 3.5rem;
+          width: 3.5rem;
+        }
+      }
+    }
+  }
 }
+
+// places where the nav icons change
+// bp-medium
+// that's all, there are only two sets: small and large
