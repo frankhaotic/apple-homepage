@@ -67,8 +67,7 @@
   &__secondary {
     display: grid;
     grid-template-rows: repeat(6, 548px);
-    grid-template-columns: 100vw;
-    margin: 0 0.5rem;
+    grid-template-columns: minmax(320px, 100vw);
     gap: 0.5rem;
 
     @media only screen and (min-width: $bp-small) {
