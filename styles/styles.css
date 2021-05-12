@@ -116,7 +116,7 @@ footer {
     display: grid;
     grid-template-rows: repeat(6, 548px);
     grid-template-columns: 100vw;
-    padding: 0 0.5rem;
+    margin: 0 0.5rem;
     gap: 0.5rem; }
     @media only screen and (min-width: 45.9375em) {
       .products__secondary {
@@ -160,10 +160,18 @@ footer {
       background-size: 740px; }
       @media only screen and (min-width: 45.9375em) {
         .products__secondary__item--4 {
-          background: url(https://www.apple.com/v/home/y/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_medium_2x.jpg); } }
+          background: url(https://www.apple.com/v/home/y/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_medium_2x.jpg);
+          background-repeat: no-repeat;
+          background-position-x: center;
+          background-position-y: bottom;
+          background-size: 500px; } }
       @media only screen and (min-width: 66.875em) {
         .products__secondary__item--4 {
-          background: url(https://www.apple.com/v/home/y/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_large_2x.jpg); } }
+          background: url(https://www.apple.com/v/home/y/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_large_2x.jpg);
+          background-repeat: no-repeat;
+          background-position-x: center;
+          background-position-y: bottom;
+          background-size: 1100px; } }
     .products__secondary__item--5 {
       background: url(https://www.apple.com/v/home/y/images/promos/apple-tv-4k/promo_tile_tv4k__cbz6fpnn6kz6_small_2x.jpg); }
       @media only screen and (min-width: 45.9375em) {
