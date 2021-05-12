@@ -7,6 +7,7 @@
   --color-grey-light-2: #86868b;
 
   --color-text: #ccc;
+  --color-text-darker: #454;
 }
 
 // notable page boundaries ==============================================
@@ -68,4 +69,15 @@ body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.5;
+}
+
+a {
+  color: var(--color-text-darker);
+  text-decoration: none;
+  &:visited {
+    color: var(--color-text-darker);
+  }
+  &:hover {
+    text-decoration: underline;
+  }
 }

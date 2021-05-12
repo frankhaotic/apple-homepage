@@ -3,7 +3,8 @@
   --color-grey-dark-1: rgba(29, 29, 31, 0.9);
   --color-grey-light-1: #f5f5f7;
   --color-grey-light-2: #86868b;
-  --color-text: #ccc; }
+  --color-text: #ccc;
+  --color-text-darker: #454; }
 
 /*
   1069px:
@@ -46,6 +47,14 @@ body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.5; }
+
+a {
+  color: var(--color-text-darker);
+  text-decoration: none; }
+  a:visited {
+    color: var(--color-text-darker); }
+  a:hover {
+    text-decoration: underline; }
 
 .hamburger {
   display: block;
