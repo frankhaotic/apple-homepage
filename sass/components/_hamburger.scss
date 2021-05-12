@@ -1,0 +1,39 @@
+.hamburger {
+  display: block;
+  position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  width: 1.4em;
+  height: 1px;
+  // transition: transform 350ms ease-in-out, opacity 200ms linear;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  background: #ccc;
+}
+
+.hamburger::before {
+  bottom: 3px;
+}
+.hamburger::after {
+  top: 3px;
+}
+
+.toggle {
+  position: absolute;
+  bottom: 10px;
+  left: 40px;
+  transform: translateX(-100%);
+  background: transparent;
+  padding: 1em 0.5em;
+  border: 0;
+  border-radius: 0.25em 0 0 0.25em;
+  outline: none;
+}

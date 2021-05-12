@@ -15,14 +15,6 @@
     display: none;
   }
 
-  &__links {
-    &__link {
-      > * {
-        flex: 1;
-      }
-    }
-  }
-
   @media only screen and (min-width: $bp-medium) {
     .hidden {
       display: inline-block;
@@ -38,6 +30,7 @@
       &--2 {
         &__icon {
           margin-top: 0.5rem;
+          margin-left: 2rem;
           height: 3.5rem;
           width: 3.5rem;
         }
