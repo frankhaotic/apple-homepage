@@ -25,12 +25,36 @@
       &--1 {
         background: url(https://www.apple.com/v/home/y/images/heroes/ipad-pro/hero_ipad_pro__gl982dtu49im_small_2x.jpg);
         background-position-y: -1.75rem;
+
+        @media only screen and (min-width: $bp-small) {
+          background: url(https://www.apple.com/v/home/y/images/heroes/ipad-pro/hero_ipad_pro__gl982dtu49im_mediumtall_2x.jpg);
+        }
+
+        @media only screen and (min-width: $bp-large) {
+          background: url(https://www.apple.com/v/home/y/images/heroes/ipad-pro/hero_ipad_pro__gl982dtu49im_largetall_2x.jpg);
+        }
       }
       &--2 {
         background: url(https://www.apple.com/euro/home/n/screens_alt/images/heroes/iphone-12-purple/hero_iphone_12_purple__eybnx2ju5mky_small_2x.jpg);
+
+        @media only screen and (min-width: $bp-small) {
+          background: url(https://www.apple.com/euro/home/n/screens_alt/images/heroes/iphone-12-purple/hero_iphone_12_purple__eybnx2ju5mky_mediumtall_2x.jpg);
+        }
+
+        @media only screen and (min-width: $bp-large) {
+          background: url(https://www.apple.com/euro/home/n/screens_alt/images/heroes/iphone-12-purple/hero_iphone_12_purple__eybnx2ju5mky_largetall_2x.jpg);
+        }
       }
       &--3 {
         background: url(https://www.apple.com/v/home/y/images/heroes/imac/hero_imac_avail__zbofyl96mzmm_small_2x.jpg);
+
+        @media only screen and (min-width: $bp-small) {
+          background: url(https://www.apple.com/v/home/y/images/heroes/imac/hero_imac_avail__zbofyl96mzmm_mediumtall_2x.jpg);
+        }
+
+        @media only screen and (min-width: $bp-large) {
+          background: url(https://www.apple.com/v/home/y/images/heroes/imac/hero_imac_avail__zbofyl96mzmm_largetall_2x.jpg);
+        }
       }
       &--1,
       &--2,
@@ -43,8 +67,9 @@
   &__secondary {
     display: grid;
     grid-template-rows: repeat(6, 548px);
-    grid-template-columns: 95vw;
-    gap: 1rem;
+    grid-template-columns: 100vw;
+    padding: 0 0.5rem;
+    gap: 0.5rem;
 
     @media only screen and (min-width: $bp-small) {
       grid-template-rows: repeat(3, 538px);
@@ -60,12 +85,35 @@
     &__item {
       &--1 {
         background: url(https://www.apple.com/v/home/y/images/promos/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_small_2x.jpg);
+
+        @media only screen and (min-width: $bp-small) {
+          background: url(https://www.apple.com/v/home/y/images/promos/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_medium_2x.jpg);
+        }
+
+        @media only screen and (min-width: $bp-large) {
+          background: url(https://www.apple.com/v/home/y/images/promos/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_large_2x.jpg);
+        }
       }
       &--2 {
         background: url(https://www.apple.com/v/home/y/images/promos/watch-series-6/promo_watch_series_6_non_lte__dnht9uxjrnau_small_2x.jpg);
+
+        @media only screen and (min-width: $bp-small) {
+          background: url(https://www.apple.com/v/home/y/images/promos/watch-series-6/promo_watch_series_6_non_lte__dnht9uxjrnau_medium_2x.jpg);
+        }
+        @media only screen and (min-width: $bp-large) {
+          background: url(https://www.apple.com/v/home/y/images/promos/watch-series-6/promo_watch_series_6_non_lte__dnht9uxjrnau_large_2x.jpg);
+        }
       }
       &--3 {
         background: url(https://www.apple.com/v/home/y/images/promos/airtag/promo_airtag__e6b73a64nno2_small_2x.jpg);
+
+        @media only screen and (min-width: $bp-small) {
+          background: url(https://www.apple.com/v/home/y/images/promos/airtag/promo_airtag__e6b73a64nno2_medium_2x.jpg);
+        }
+
+        @media only screen and (min-width: $bp-large) {
+          background: url(https://www.apple.com/v/home/y/images/promos/airtag/promo_airtag__e6b73a64nno2_large_2x.jpg);
+        }
       }
       &--4 {
         background: url(https://www.apple.com/v/home/y/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_small_2x.jpg);
@@ -73,12 +121,38 @@
         background-position-x: center;
         background-position-y: bottom;
         background-size: 740px;
+
+        @media only screen and (min-width: $bp-small) {
+          background: url(https://www.apple.com/v/home/y/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_medium_2x.jpg);
+        }
+        @media only screen and (min-width: $bp-large) {
+          background: url(https://www.apple.com/v/home/y/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_large_2x.jpg);
+        }
       }
       &--5 {
         background: url(https://www.apple.com/v/home/y/images/promos/apple-tv-4k/promo_tile_tv4k__cbz6fpnn6kz6_small_2x.jpg);
+
+        @media only screen and (min-width: $bp-small) {
+          background: url(https://www.apple.com/v/home/y/images/promos/apple-tv-4k/promo_tile_tv4k__cbz6fpnn6kz6_medium_2x.jpg);
+        }
+        @media only screen and (min-width: $bp-large) {
+          background: url(https://www.apple.com/v/home/y/images/promos/apple-tv-4k/promo_tile_tv4k__cbz6fpnn6kz6_large_2x.jpg);
+        }
       }
       &--6 {
         background: url(https://www.apple.com/euro/home/n/screens_alt/images/promos/tv-plus-april-multi-show/promo_tile_tv_plus_april_multi_show__exe3n6u00l8i_small_2x.jpg);
+
+        @media only screen and (min-width: $bp-small) {
+          background: url(https://www.apple.com/euro/home/n/screens_alt/images/promos/tv-plus-april-multi-show/promo_tile_tv_plus_april_multi_show__exe3n6u00l8i_medium_2x.jpg);
+        }
+
+        @media only screen and (min-width: $bp-large) {
+          background: url(https://www.apple.com/euro/home/n/screens_alt/images/promos/tv-plus-april-multi-show/promo_tile_tv_plus_april_multi_show__exe3n6u00l8i_large_2x.jpg);
+        }
+
+        @media only screen and (min-width: $bp-xlarge) {
+          background: url(https://www.apple.com/euro/home/n/screens_alt/images/promos/tv-plus-april-multi-show/promo_tile_tv_plus_april_multi_show__exe3n6u00l8i_xlarge_2x.jpg);
+        }
       }
 
       &--1,
