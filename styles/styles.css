@@ -112,10 +112,29 @@ body {
 footer {
   margin-top: 1rem;
   background-color: var(--color-grey-light-1);
-  min-width: 320; }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  footer > * {
+    min-width: 320px;
+    max-width: 1020px; }
 
 .annotations {
   padding: 1rem 2rem; }
+
+.services__dropdown {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  .services__dropdown > * {
+    padding: 0.7rem 0; }
+  .services__dropdown li {
+    margin: 0 1rem;
+    display: flex;
+    border-bottom: 1px solid #d0d0cf; }
+  .services__dropdown__dropicon {
+    margin-left: auto; }
 
 .header {
   background: var(--color-grey-dark-1);
