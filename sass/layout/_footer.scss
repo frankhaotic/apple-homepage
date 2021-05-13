@@ -76,7 +76,7 @@ footer {
     margin: 0 1rem;
     padding: 0 2rem 0 0;
     border-top: 1px solid #d0d0cf;
-    width: 100%;
+    width: 95%;
     justify-content: space-between;
     flex-wrap: wrap;
 
@@ -88,15 +88,22 @@ footer {
     ul {
       list-style-type: none;
       max-width: 10rem;
+      cursor: pointer;
       li {
-        padding-bottom: 0.3rem;
+        padding-bottom: 0.4rem;
       }
     }
   }
 }
 
 .footerlinks {
+  width: 95%;
   align-self: flex-start;
+
+  @media only screen and (min-width: $bp-medium) {
+    margin-top: 1.3rem;
+    align-self: auto;
+  }
 }
 
 .copyright__links {
@@ -114,11 +121,24 @@ footer {
   li:not(:last-child) {
     padding-bottom: 1rem;
   }
+
+  @media only screen and (min-width: $bp-medium) {
+    li:first-of-type {
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #ccc;
+    }
+    li:nth-of-type(2) {
+      padding-top: 0.5rem;
+      margin-left: 95%;
+    }
+    li:last-child {
+      margin-top: -2.25rem;
+    }
+  }
 }
 
 .legal {
   font-size: 12px;
-  // font-weight: 400;
   display: flex;
   flex-wrap: wrap;
   max-width: 600px;
