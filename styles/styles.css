@@ -173,7 +173,7 @@ footer {
     margin: 0 1rem;
     padding: 0 2rem 0 0;
     border-top: 1px solid #d0d0cf;
-    width: 95%;
+    width: 98.5%;
     justify-content: space-between;
     flex-wrap: wrap; }
     .services__table p {
@@ -187,12 +187,14 @@ footer {
         padding-bottom: 0.4rem; }
 
 .footerlinks {
-  width: 95%;
+  width: 100%;
   align-self: flex-start; }
   @media only screen and (min-width: 47.94em) {
     .footerlinks {
-      margin-top: 1.3rem;
-      align-self: auto; } }
+      margin-top: 1.3rem; } }
+  @media only screen and (min-width: 1050px) {
+    .footerlinks {
+      align-self: center; } }
 
 .copyright__links {
   font-size: 12px;
