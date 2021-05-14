@@ -137,6 +137,34 @@ a {
   .products__primary__text--1.cta, .products__primary__text--2.cta, .products__primary__text--3.cta {
     margin-top: 7px;
     font-weight: 400; }
+  @media only screen and (min-width: 45.9375em) {
+    .products__primary__text--1.title, .products__primary__text--2.title, .products__primary__text--3.title {
+      font-size: 2.7rem;
+      font-weight: 600;
+      padding-top: 25px; }
+    .products__primary__text--1.slogan, .products__primary__text--2.slogan, .products__primary__text--3.slogan {
+      font-size: 1.4rem;
+      font-weight: 400; }
+    .products__primary__text--1.pricing, .products__primary__text--2.pricing, .products__primary__text--3.pricing {
+      margin-top: 5px;
+      font-size: 1rem; }
+    .products__primary__text--1.cta, .products__primary__text--2.cta, .products__primary__text--3.cta {
+      margin-top: 7px;
+      font-weight: 400; } }
+  @media only screen and (min-width: 66.875em) {
+    .products__primary__text--1.title, .products__primary__text--2.title, .products__primary__text--3.title {
+      font-size: 3rem;
+      padding-top: 25px; }
+    .products__primary__text--1.slogan, .products__primary__text--2.slogan, .products__primary__text--3.slogan {
+      font-size: 1.7rem;
+      font-weight: 400; }
+    .products__primary__text--1.pricing, .products__primary__text--2.pricing, .products__primary__text--3.pricing {
+      margin-top: 5px;
+      font-size: 1rem; }
+    .products__primary__text--1.cta, .products__primary__text--2.cta, .products__primary__text--3.cta {
+      margin-top: 7px;
+      font-size: 1.3rem;
+      font-weight: 400; } }
 
 .products__primary__text--1.title {
   color: #fff;
@@ -186,6 +214,25 @@ a {
     display: inline-block;
     margin-top: 7px;
     font-weight: 400; }
+  @media only screen and (min-width: 66.875em) {
+    .products__secondary__text--1.title, .products__secondary__text--2.title, .products__secondary__text--3.title, .products__secondary__text--4.title, .products__secondary__text--5.title, .products__secondary__text--6.title {
+      font-size: 2.5rem;
+      font-weight: 500;
+      margin-top: 30px; }
+    .products__secondary__text--1.slogan, .products__secondary__text--2.slogan, .products__secondary__text--3.slogan, .products__secondary__text--4.slogan, .products__secondary__text--5.slogan, .products__secondary__text--6.slogan {
+      font-size: 1.25rem;
+      font-weight: 400; }
+    .products__secondary__text--1.pricing, .products__secondary__text--2.pricing, .products__secondary__text--3.pricing, .products__secondary__text--4.pricing, .products__secondary__text--5.pricing, .products__secondary__text--6.pricing {
+      margin-top: 5px;
+      font-size: 1rem; }
+    .products__secondary__text--1.cta, .products__secondary__text--2.cta, .products__secondary__text--3.cta, .products__secondary__text--4.cta, .products__secondary__text--5.cta, .products__secondary__text--6.cta {
+      display: inline-block;
+      margin-top: 7px;
+      font-weight: 400; }
+    .products__secondary__text--1.image, .products__secondary__text--2.image, .products__secondary__text--3.image, .products__secondary__text--4.image, .products__secondary__text--5.image, .products__secondary__text--6.image {
+      margin-top: 25px; }
+      .products__secondary__text--1.image img, .products__secondary__text--2.image img, .products__secondary__text--3.image img, .products__secondary__text--4.image img, .products__secondary__text--5.image img, .products__secondary__text--6.image img {
+        width: 120px; } }
 
 .products__secondary__text--1.title {
   color: #fff; }
@@ -224,6 +271,12 @@ a {
 .products__secondary__text--3.cta > * {
   color: #0066cc; }
 
+@media only screen and (min-width: 66.875em) {
+  .products__secondary__text--3.image {
+    margin-top: 50px; }
+    .products__secondary__text--3.image img {
+      width: 100px; } }
+
 .products__secondary__text--4.image {
   margin-top: 45px; }
   .products__secondary__text--4.image img {
@@ -243,12 +296,18 @@ a {
   height: 0.6rem;
   width: 0.8rem; }
 
+@media only screen and (min-width: 66.875em) {
+  .products__secondary__text--4.image {
+    margin-top: 50px; }
+    .products__secondary__text--4.image img {
+      width: 180px; } }
+
 .products__secondary__text--5.image img {
   width: 90px;
   margin-bottom: 10px; }
 
 .products__secondary__text--5.title {
-  color: chocolate;
+  color: #c04d07;
   font-size: 0.8rem;
   margin: 1rem 0 0.5rem 0; }
 
@@ -266,6 +325,20 @@ a {
 .products__secondary__text--5.cta > * {
   color: #0066cc; }
 
+@media only screen and (min-width: 66.875em) {
+  .products__secondary__text--5.title {
+    font-size: 0.8rem;
+    margin: 2.8rem 0 0 0; }
+  .products__secondary__text--5.image {
+    margin-top: 2px; }
+    .products__secondary__text--5.image img {
+      width: 110px; }
+  .products__secondary__text--5.slogan {
+    font-size: 2.6rem;
+    font-weight: 500;
+    max-width: 350px;
+    line-height: 1.2; } }
+
 .products__secondary__text--6.image {
   margin-top: 395px; }
   .products__secondary__text--6.image img {
@@ -281,6 +354,17 @@ a {
   margin-top: 0.5rem;
   height: 0.6rem;
   width: 0.8rem; }
+
+@media only screen and (min-width: 66.875em) {
+  .products__secondary__text--6.image {
+    margin-top: 435px; }
+    .products__secondary__text--6.image img {
+      width: 80px;
+      margin-bottom: 10px; }
+  .products__secondary__text--6.slogan {
+    line-height: 1.2; }
+  .products__secondary__text--6.cta {
+    margin-top: 10px; } }
 
 footer {
   margin-top: 1rem;
