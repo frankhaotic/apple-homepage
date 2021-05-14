@@ -1,0 +1,258 @@
+.products {
+  &__primary {
+    &__text {
+      &--1,
+      &--2,
+      &--3 {
+        display: flex;
+        justify-content: center;
+
+        &.title {
+          font-size: 1.9rem;
+          font-weight: 500;
+          margin-top: 30px;
+        }
+
+        &.slogan {
+          font-size: 1.1rem;
+          font-weight: 400;
+        }
+
+        &.pricing {
+          margin-top: 5px;
+          font-size: 0.85rem;
+        }
+
+        &.cta {
+          margin-top: 7px;
+          font-weight: 400;
+        }
+      }
+      &--1 {
+        &.title {
+          color: #fff;
+          margin-top: 28px;
+        }
+        &.slogan {
+          color: #fff;
+
+          span {
+            max-width: 10rem;
+          }
+          @media only screen and (min-width: 325px) {
+            span {
+              max-width: none;
+            }
+          }
+        }
+        &.pricing {
+          color: #aaa;
+        }
+        &.cta {
+          > * {
+            color: #2997ff;
+          }
+        }
+      }
+
+      &--2,
+      &--3 {
+        &.title {
+          color: #000;
+        }
+        &.slogan {
+          color: #000;
+        }
+        &.pricing {
+          color: #555;
+        }
+        &.cta {
+          > * {
+            color: #0066cc;
+          }
+        }
+      }
+    }
+  }
+
+  &__secondary {
+    &__text {
+      &--1,
+      &--2,
+      &--3,
+      &--4,
+      &--5,
+      &--6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &.title {
+          font-size: 1.8rem;
+          font-weight: 500;
+          margin-top: 30px;
+        }
+
+        &.slogan {
+          font-size: 1.05rem;
+          font-weight: 400;
+        }
+
+        &.pricing {
+          margin-top: 5px;
+          font-size: 0.85rem;
+        }
+
+        &.cta {
+          display: inline-block;
+          margin-top: 7px;
+          font-weight: 400;
+        }
+      }
+
+      &--1 {
+        &.title {
+          color: #fff;
+        }
+
+        &.slogan {
+          color: #fff;
+        }
+
+        &.pricing {
+          a {
+            color: #aaa;
+          }
+        }
+
+        &.cta {
+          display: inline;
+          > * {
+            color: #2997ff;
+          }
+        }
+      }
+
+      &--2 {
+        &.image {
+          margin-top: 25px;
+          img {
+            width: 120px;
+          }
+        }
+
+        &.slogan {
+          color: #fff;
+          margin-top: 10px;
+        }
+
+        &.cta {
+          > * {
+            color: #2997ff;
+          }
+        }
+      }
+      &--3 {
+        &.image {
+          margin-top: 40px;
+          img {
+            width: 90px;
+          }
+        }
+
+        &.slogan {
+          color: #000;
+        }
+
+        &.cta {
+          > * {
+            color: #0066cc;
+          }
+        }
+      }
+
+      &--4 {
+        &.image {
+          margin-top: 45px;
+          img {
+            width: 140px;
+          }
+        }
+
+        &.slogan {
+          margin-top: 10px;
+          color: #000;
+        }
+
+        &.cta {
+          text-align: center;
+          > * {
+            color: #0066cc;
+          }
+        }
+
+        &__icon {
+          margin-top: 0.5rem;
+          height: 0.6rem;
+          width: 0.8rem;
+        }
+      }
+      &--5 {
+        &.image {
+          img {
+            width: 90px;
+            margin-bottom: 10px;
+          }
+        }
+
+        &.title {
+          color: chocolate;
+          font-size: 0.8rem;
+          margin: 1rem 0 0.5rem 0;
+        }
+
+        &.slogan {
+          // TODO Fix font size
+          font-size: 1.8rem;
+          font-weight: 500;
+          color: #000;
+          max-width: 250px;
+          text-align: center;
+          line-height: 1.3;
+          @media only screen and (min-width: 450px) {
+            max-width: none;
+          }
+        }
+
+        &.cta {
+          > * {
+            color: #0066cc;
+          }
+        }
+      }
+      &--6 {
+        &.image {
+          margin-top: 395px;
+          img {
+            width: 70px;
+          }
+        }
+        &.slogan {
+          color: #fff;
+        }
+
+        &.cta {
+          > * {
+            color: #fff;
+          }
+        }
+
+        &__icon {
+          margin-top: 0.5rem;
+          height: 0.6rem;
+          width: 0.8rem;
+        }
+      }
+    }
+  }
+}
