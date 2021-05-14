@@ -496,6 +496,8 @@ footer {
     grid-template-rows: repeat(3, minmax(min-content, 548px));
     grid-template-columns: minmax(min-content, 2560px);
     gap: 1rem; }
+    .products__primary > * {
+      cursor: pointer; }
     @media only screen and (min-width: 45.9375em) {
       .products__primary {
         grid-template-rows: repeat(3, 698px); } }
@@ -538,6 +540,8 @@ footer {
     grid-template-rows: repeat(6, 548px);
     grid-template-columns: minmax(320px, 100vw);
     gap: 0.5rem; }
+    .products__secondary > * {
+      cursor: pointer; }
     @media only screen and (min-width: 45.9375em) {
       .products__secondary {
         grid-template-rows: repeat(3, 538px);
