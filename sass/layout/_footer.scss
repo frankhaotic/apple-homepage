@@ -117,8 +117,12 @@ footer {
   list-style-type: none;
 
   li:first-of-type {
+    max-width: 300px;
     a {
       color: #06c;
+    }
+    @media only screen and (min-width: 450px) {
+      max-width: none;
     }
   }
 
